@@ -105,13 +105,10 @@ class _LoginScreenState extends State<LoginScreen> {
                       onPressed: () {
                         // TODO: implementasi login Google
                       },
-                      icon: const Text(
-                        'G',
-                        style: TextStyle(
-                          color: Color(0xFF4285F4),
-                          fontWeight: FontWeight.w800,
-                          fontSize: 16,
-                        ),
+                      icon: Image.asset(
+                        'assets/google.png',
+                        width: 20,
+                        height: 20,
                       ),
                       label: const Text(
                         'Continue with Google',
